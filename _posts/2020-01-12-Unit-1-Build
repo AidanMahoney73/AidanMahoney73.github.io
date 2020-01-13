@@ -1,0 +1,23 @@
+---
+layout: post
+title: Does White Really have a First Turn Advantage in Chess?
+subtitle: Unit 1 Build Project And Blog Post
+gh-repo: AidanMahoney73/AidanMahoney73.github.io
+gh-badge: [star, fork, follow]
+tags: [DS Project]
+comments: true
+---
+
+## The Basics of Chess
+“Chess is a finite, two-player, zero-sum, perfect-information game.” - [Sora](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=no-game-no-life-2014&episode=s01e01)
+In Chess players take turns moving pieces on a board to capture the enemy king and win the game. Luck plays no part in chess and the games are won by skill, intuition, and foresight.
+##My Dataset
+My dataset is from the user [Mitchell J on Kaggle.](https://www.kaggle.com/datasnaek/chess) This dataset was created using the Lichess API and collecting data from multiple users. The dataset contains 20058 games played by humans of varying strengths. The dataset has plenty of information for research including, but not limited to, both of the player’s ID, both player’s ELO score, the results of the match, the moves that were made, and the opening ECO code for the game.
+##Exploring the Dataset
+In total there were 9107 wins by black, 950 draws, and 10001 wins by white. White has a 9.8% increase in win rate. Of the top 10 openings in the dataset, the highest win rate for white was the B00 ECO code, and the highest win ratio for black was B20.
+![all](/img/all.png)
+The ECO code B00 is pawn to e4
+The ECO code B00 is pawn to e4 then pawn to c5 (Continuing off of Whites starting move)
+![top10eco](/img/top10eco.png)
+##Conclusion
+In the dataset, white seemingly does not have an advantage. The advantage observed in the overall dataset seems to be exploitable given enough skill and intuition of the game as shown by the openings.
