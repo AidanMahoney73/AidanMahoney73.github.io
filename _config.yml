@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: A Portfolio of Aidan Mahoney
+title: My Portfolio
 
 # Short description of your site
-description: A collection of my Data Science projects
+description: a collection of my Data Science projects
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
